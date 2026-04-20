@@ -99,3 +99,70 @@ After replacing README:
 git add README.md
 git commit -m "Fix README and resolve merge conflict"
 git push -u origin main
+
+🔮 Future Improvements
+1. Undo / Redo System
+
+Implement action history using a stack-based state model.
+Why it matters:
+
+Improves usability for complex workflows
+Demonstrates state management depth
+2. Export / Import Workflow (JSON)
+
+Allow users to save workflows as JSON and reload them.
+Why it matters:
+
+Enables persistence without backend
+Shows understanding of serialization and data portability
+3. Backend Integration (FastAPI / Node.js)
+
+Add a backend to store workflows and handle simulation logic.
+Why it matters:
+
+Demonstrates full-stack capability
+Enables multi-user workflows and persistence
+4. Real-Time Collaboration (WebSockets)
+
+Allow multiple users to edit workflows simultaneously.
+Why it matters:
+
+Shows knowledge of real-time systems
+Aligns with modern collaborative tools (like Figma)
+5. Advanced Simulation Engine
+
+Support conditional branching, parallel execution, and retries.
+Why it matters:
+
+Moves from basic flow → real workflow engine
+Demonstrates system design and execution logic
+6. Role-Based Access Control (RBAC)
+
+Add user roles (HR, Manager, Admin) with permissions.
+Why it matters:
+
+Important for real-world enterprise apps
+Shows security and design thinking
+7. Visual Debugging Tools
+
+Highlight execution path, failed nodes, and bottlenecks.
+Why it matters:
+
+Improves developer experience
+Shows attention to observability
+8. Performance Optimization
+
+Optimize large workflows using memoization and virtualization.
+Why it matters:
+
+Shows understanding of scalability
+Important for handling complex graphs
+💡 Why this section matters
+
+This is not just “future ideas.”
+
+👉 It tells the reviewer:
+
+You think like an engineer ✅
+You understand real-world systems ✅
+You can scale this into a product ✅
